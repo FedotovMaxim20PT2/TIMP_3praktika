@@ -25,7 +25,7 @@ int main()
     remoteAddr->sin_addr.s_addr = inet_addr("82.179.90.12"); 
 
     char *buf = new char [256];
-    strcpy(buf, "Ну и ветер\n"); 
+    strcpy(buf, "РќСѓ Рё РІРµС‚РµСЂ\n"); 
     int msgLen = strlen(buf);             
 
     int mySocket = socket(AF_INET, SOCK_STREAM, 0); 
